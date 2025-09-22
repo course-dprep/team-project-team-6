@@ -55,4 +55,14 @@ Variable operationalization table:
 
 This project is set up as part of the Master's course [Data Preparation & Workflow Management](https://dprep.hannesdatta.com/) at the [Department of Marketing](https://www.tilburguniversity.edu/about/schools/economics-and-management/organization/departments/marketing), [Tilburg University](https://www.tilburguniversity.edu/), the Netherlands.
 
-The project is implemented by team \< x \> members: \< insert member details\>
+The project is implemented by team 6:
+
+-   Roos van den Berg ([r.vdnberg\@tilburguniversity.edu](mailto:r.vdnberg@tilburguniversity.edu))
+
+-   Jelle van der Eng ([j.b.vdreng\@tilburguniversity.edu](mailto:j.b.vdreng@tilburguniversity.edu))
+
+-   Iris Kiens ([i.s.l.kiens\@tilburguniversity.edu](mailto:j.b.vdreng@tilburguniversity.edu))
+
+-   Dana Raats ([d.f.m.raats\@tilburguniversity.edu](mailto:j.b.vdreng@tilburguniversity.edu))
+
+-   Renata Serrano ([r.m.serranoquiteno\@tilburguniversity.edu](mailto:r.m.serranoquiteno@tilburguniversity.edu))
