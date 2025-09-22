@@ -35,9 +35,21 @@ and how does this relationship differ across various film genres?**
 
 ## Data
 
--   What dataset(s) did you use? How was it obtained?
--   How many observations are there in the final dataset?
--   Include a table of variable description/operstionalisation.
+In order to investigate the relationship between a film's runtime and its average audience rating and how genre influences this relationship, two datasets from the IMDb data section were used: title.basics.tsv and title.ratings.tsv. We selected title.basics.tsv because it provides the unique identifier of the title for each movie, its runtime and its genre, which are essential for our research. Since audience rating was not included in title.basics.tsv, we also selected title.ratings.tsv. This dataset also includes the unique identifier of the title for each movie and provides the audience rating of each movie. After merging and cleaning these two datasets, the final dataset consists of 93,047 observations.
+
+The variables we have kept in the final dataset can be found in the variable operationalization table. The descriptive variables are variables that may be of interest for our analysis but are not the main variables of our research. For example, we might want to use the number of votes to decide how reliable the rating of each movie is. The variable tconst was used to merge the two datasets. This ensures that ratings are correctly matched to each movie, along with its runtime and genre, since this variable is the only one shared between  both datasets. Lastly, primaryTitle and startYear may provide useful context. 
+
+Variable operationalization table:
+
+| variable       | type                | category of data | operationalization                                 | dataset          |
+| ...............| ....................|..................|................................................... | .................|
+| runtimeMinutes | independent variable| metric           | Run time of each movie in minutes                  | title.basics.tsv |
+| averageRating  | dependent variable  | metric           | Audience rating of each movie on a scale of 0 to 10| title.ratings.tsv|
+| genres         | moderator           | categorical      | Genre(s) of each movie                             | title.basics.tsv |
+| numVotes       | descriptive         | metric           | Number of votes from the audience on the rating    | title.ratings.tsv|
+| primaryTitle   | descriptive         | categorical      | Title of each movie                                | title.basics.tsv |
+| startYear      | descriptive         | numeric          | The year in which the movie came out               | title.basics.tsv |
+| tconst         | descriptive         | numeric          | Unique identifier of the title                     | both datasets    |
 
 ## Method
 
