@@ -1,6 +1,17 @@
+#load packages
 library(dplyr)
 library(tidyverse)
 library(readr)
+
+#create folder for data
+#if(!dir.exists("data")){dir.create("data")}
+
+#downloading data
+#download_data <- function(url, filename){download.file(url= url, destfile = filename, mode = "wb")}
+#url_basics <- "https://datasets.imdbws.com/title.basics.tsv.gz"
+#url_ratings <- "https://datasets.imdbws.com/title.ratings.tsv.gz"
+#download_data(url_basics, "data/title.basics.tsv")
+#download_data(url_ratings, "data/title.ratings.tsv")
 
 #merging datasets
 
